@@ -1,0 +1,21 @@
+transformers>=4.35.0
+torch>=2.1.0
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+pymupdf>=1.22.3
+pillow>=10.0.0
+accelerate>=0.24.0
+huggingface-hub>=0.20.0
+scipy>=1.10.0
+pandas>=2.0.0
+networkx>=3.0
+python-magic>=0.4.27
+tqdm>=4.65.0
+# For BLIP image captioning
+# git+https://github.com/Salesforce/BLIP.git
+# For rapid PDF table extraction (optional)
+tabula-py>=2.7.0
+# For OCR (optional, formula/diagram extraction)
+pytesseract>=0.3.10
+# For text chunking
+nltk>=3.8.1
